@@ -1,0 +1,7 @@
+{
+  "name": "bs-compression",
+  "dependencies": "bs-express",
+  "reason": { "react-jsx": 2 },
+  "bsc-flags": ["-bs-super-errors"],
+  "sources": [{ "dir": "src" }]
+}
