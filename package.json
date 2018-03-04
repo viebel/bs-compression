@@ -1,6 +1,6 @@
 {
   "name": "bs-compression",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Bucklescript bindings for Compression middlewaare",
   "scripts": {
     "test": "jest --watch",
@@ -25,7 +25,8 @@
   },
   "homepage": "https://github.com/viebel/bs-compression#readme",
   "devDependencies": {
-    "bs-platform": "^2.2.2"
+    "bs-platform": "^2.2.2",
+    "bs-express": "^0.0.4"
   },
   "dependencies": {
     "compression": "^1.7.2"
