@@ -1,5 +1,5 @@
 # bs-compression
-Bucklescript Bindings for compression package (nodejs)
+Bucklescript Bindings for [compression](https://github.com/expressjs/compression) express middleware.
 
 This package can be used only with `bs-express`. You need to add `bs-express` as a dependency in your project.
 
@@ -8,6 +8,7 @@ This package can be used only with `bs-express`. You need to add `bs-express` as
 For instance, here is the code to serve static files from `public` folder and compress them.
 Remark: The compression middleware should be first.
 ```reason
+let app = express();
 App.useOnPathWithMany(
   app,
   ~path="/public",
