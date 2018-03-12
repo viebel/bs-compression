@@ -1,6 +1,6 @@
 {
   "name": "bs-compression",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Bucklescript bindings for Compression middlewaare",
   "scripts": {
     "test": "jest --watch",
